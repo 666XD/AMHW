@@ -16,5 +16,10 @@ public class testTest {
     public void testAdd3() {
         assertEquals (3, (new C()).add(0) );
     }
+    @Test
+    public void testAdd4() {
+        assertEquals (9, (new C()).times(3));
+    }
+
 
 }
